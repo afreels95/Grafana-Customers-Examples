@@ -9,5 +9,8 @@ Step 2. Install Prometheus on your windows server URL: https://prometheus.io/dow
 
 Step 3: Edit the prometheus.yml file and fill in your Grafana Cloud info. 
 
-Step 4. Run prometheus with the config in this repo to scrape the windows exporter endpoint. 
+Step 4. Run prometheus with the prometheus.yml in this repo to scrape the windows exporter endpoint. 
+
+
+Check this guide for a more detailed walkthru with screenshots. https://fitdevops.in/monitoring-windows-servers-using-wmi-exporter-prometheus/
 
