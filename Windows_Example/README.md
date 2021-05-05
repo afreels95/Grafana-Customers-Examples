@@ -14,3 +14,4 @@ Step 4. Run prometheus with the prometheus.yml in this repo to scrape the window
 
 Check this guide for a more detailed walkthru with screenshots. https://fitdevops.in/monitoring-windows-servers-using-wmi-exporter-prometheus/
 
+IF YOU GET STUCK CHECK WINDOWS SERVICES TO MAKE SURE EACH PART IS RUNNING.
