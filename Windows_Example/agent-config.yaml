@@ -11,6 +11,12 @@ metrics:
       password: eyJrIjoiYzI3ZmRlZWUzNmVkYjlhZWQyOTdkOTM1NTMzZTJkZWM4OWVkYTNiNyIsIm4iOiJ3aW5kb3dzdGVzdCIsImlkIjo0MzAxMDZ9 
   configs:
     - name: integrations
+      scrape_configs:
+      - job_name: "windows"
+        static_configs:
+          - targets: ["localhost:12345"]
+        metrics_path: /integrations/windows_exporter/metrics
 integrations:
   windows_exporter:
     enabled: true
+    enabled_collectors: cpu,cs,logical_disk,net,os,service,system,process
