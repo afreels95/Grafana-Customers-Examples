@@ -8,7 +8,7 @@ metrics:
     - url: https://prometheus-us-central1.grafana.net/api/prom/push
     basic_auth:
       username: 19139
-      password: eyJrIjoiYzI3ZmRlZWUzNmVkYjlhZWQyOTdkOTM1NTMzZTJkZWM4OWVkYTNiNyIsIm4iOiJ3aW5kb3dzdGVzdCIsImlkIjo0MzAxMDZ9 
+      password: <api_key> 
   configs:
     - name: integrations
       scrape_configs:
